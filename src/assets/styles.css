@@ -1,0 +1,102 @@
+/* Style for the outer div containing the entire application */
+.outer-box {
+    width: 500px;
+    margin: 2% auto;
+}
+
+/* Style for the box containing the todo input and list */
+.box {
+    background-color: #500e50;
+    color: white;
+    width: 100%;
+    height: 170px;
+}
+
+/* Aligning text to the end inside .box */
+.text-end {
+    text-align: end;
+}
+
+/* Styling for headings */
+h2, h4 {
+    margin: 0;
+    margin-right: 10px;
+    padding: 10px 10px 10px 0px;
+}
+
+/* Styling for todo input and button */
+.text-addTodo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type=text] {
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn-addTodo {
+    color: white;
+    background: dodgerblue;
+    font-size: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Styling for the todo list */
+.todo-list {
+    max-height: 210px;
+    overflow-y: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: lightgrey;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 15px 15px 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Style for completed todo items */
+.line-through {
+    text-decoration: line-through;
+    color: green;
+}
+
+/* Color classes for icons */
+.red {
+    color: red;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
+.green {
+    color: yellowgreen;
+}
